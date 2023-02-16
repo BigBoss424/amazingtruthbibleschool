@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,30 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amazing Truth Bible School Launch Page</title>
   <link rel="stylesheet" href="src/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="src/js/randombibleiverse.js"></script>
   <script src="src/js/script.js"></script>
-  <script src="scr/js/randombibleverse.js"></script>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4QJPYREPMF"></script>
-  <script>
-     window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L2TGE7KHT5"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'G-4QJPYREPMF');
-  </script>
-  <!-- End of Google Tag -->
-
+    gtag('config', 'G-L2TGE7KHT5');
+    </script>
 </head>
 <body>
     <div id="countdown">
         <h1>Coming Soon!</h1>
-        <p>The launch of the new website will be arriving soon. Stay updated with the development
-            of the website via the development blog or contact me.
+        <p>The launch of the new website will be arriving soon. Stay updated with the development of the website via the development blog or contact me.
         </p>
 
         <section id="buttons">
-          <button id="devblog"><a href="https://www.github.com/bigboss424/amazingtruthdevblog">Development Blog</a></button>
-          <button id="newsletter"><a href="src/html/404.html">Newsletter</a></button>
+          <button id="devblog"><a href="https://bigboss424.github.io/amazingtruthdevblog">Development Blog</a></button>
+          <button id="newsletter"><a href="../404.html">Newsletter</a></button>
           <button id="contact"><a href="src/html/contactForm.html">Contact Me</a></button>
         </section>
 
@@ -42,16 +39,15 @@
         <section id="scripture">
             <h3>Daily Scriptures</h3>
             <p class="text-info" id="newQuote"></p>
+            <!-- <button id="nvbutton"> New Verse</button> -->
             <div align="center" id="spinner" v-if='isLoading'>
-                <img src="https://www.miamidade.gov/propertysearch/images/ajax-loader.git" alt="Loading..." width="70" height="40"/>
+            <img src="https://www.miamidade.gov/propertysearch/images/ajax-loader.gif" alt="Loading..." width="70" height="40"/>
             </div>
-        </setion>
-
-        <section>
-            <footer>
-                <p> A <a href="https://www.cogswebdevelopmentandhosting.com/">Cogs Web Development and Hosting Site</a> 2023 </p>
-            </footer>
         </section>
+    </div>
+
+
+    <div class="footer">
 
     </div>
   </body>
